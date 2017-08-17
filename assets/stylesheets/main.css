@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+body {
+  font-family: 'Archivo', sans-serif;
+  background-image: url("../images/hocke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
+}
+
+.left h2 {
+  color: red;
+  font-size: 50px;
+  text-shadow: 1px 1px white;
+
+}
+
+.right h2 {
+  color: blue;
+  font-size: 50px;
+  text-shadow: 1px 1px white;
+
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hits {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.hits #teamtwo-numshots {
+
+}
+
+.hit #teamtwo-numshits {
+
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  color: white;
+}
+
+button#teamone-shoot {
+  background-color: red;
+  color: white;
+  width: 100px;
+}
+
+button#teamtwo-shoot {
+  background-color: blue;
+  width: 100px;
+}
+
+button#reset {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width: 150px;
+
+}
